@@ -12,11 +12,25 @@ body{
 header{
     background-color: lightyellow;
     width: 100%;
+    text-align: center;
 }
 
 nav{
-    background-color: lightblue;
-    width: 100%;
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap;: 
+    text-align: center; 
+    justify-content: center;
+    font-size: large; 
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+
+nav section{
+    background-color: grey; 
+    width: 15%; 
+    margin: 5px;
+    text-align: center;
 }
 
 main{
@@ -24,12 +38,18 @@ main{
     width: 70%;
 }
 
+main img{
+    width: 800px;
+}
+
 aside{
     background-color: turquoise;
     width: 30%;
+    list-style-position: inside;
 }
 
 footer{
     background-color: lightgreen;
     width: 100%;
+    text-align: center;
 }
