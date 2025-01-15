@@ -1,0 +1,23 @@
+git clone https://github.com/QuentinL0/TpNoteGit
+cd TpNoteGit
+git checkout -b Mobile 
+git pull origin html
+cd html
+nano page.html
+cat page.html
+nano index.html
+git config user.email "louis.lamande@efrei.net"
+git config user.name "TheMininecro"
+git checkout html
+git add index.html html/page.html
+git commit -m "fixe index.html + creation page.html"
+git push origin html
+git pull origin css 
+cd css
+nano style.css
+git add style.css 
+git commit -m "mobile accecibility"
+git push origin Mobile
+git add lamande.txt
+git commit -m "ajout commandes Louis"
+git push origin commandes
