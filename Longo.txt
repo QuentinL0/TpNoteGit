@@ -37,3 +37,6 @@ git push origin commandes
 
 git checkout main
 git pull origin commandes
+git add -A
+git commit -m "Commit de tout les fichiers sur le main"
+git push origin main
