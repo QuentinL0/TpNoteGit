@@ -1,0 +1,37 @@
+cd C:\Users\j123h\OneDrive\Desktop\School\B2\VersionnageGIT
+
+git clone https://github.com/QuentinL0/TpNoteGit
+
+git checkout -b html
+
+mkdir html
+cd html
+touch page.html
+cd ../
+
+git add html/page.html
+git add index.html
+
+git config user.email "j123hammal@gmail.com"
+git config user.name "JackHammal"
+
+git commit -m "structure html"
+
+git push origin html
+
+git add index.html
+git commit -m "SEO et développement de l'index"
+git push origin html
+
+git pull origin html
+git add html/page.html
+git commit -m "fix page.html"
+git push origin html
+
+git fetch --all
+
+git checkout commandes
+
+git add Hammal.txt
+git commit -m "ajout du fichier commandes Hammal.txt"
+git push origin commandes
