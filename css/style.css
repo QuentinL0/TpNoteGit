@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+header{
+    background-color: lightyellow;
+    width: 100%;
+}
+
+nav{
+    background-color: lightblue;
+    width: 100%;
+}
+
+main{
+    background-color: pink;
+    width: 70%;
+}
+
+aside{
+    background-color: turquoise;
+    width: 30%;
+}
+
+footer{
+    background-color: lightgreen;
+    width: 100%;
+}
