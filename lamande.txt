@@ -18,6 +18,8 @@ nano style.css
 git add style.css 
 git commit -m "mobile accecibility"
 git push origin Mobile
+git checkout -b commandes
+nano lamande.txt
 git add lamande.txt
 git commit -m "ajout commandes Louis"
 git push origin commandes
