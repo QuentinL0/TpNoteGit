@@ -1,0 +1,39 @@
+git clone https://github.com/QuentinL0/TpNoteGit
+cd TpNoteGit
+
+git checkout -b css
+git pull origin html
+
+mkdir css
+touch style.css
+
+mkdir images
+cd ../Téléchargements
+cp image.jpg ../TpNoteGit/images
+
+cd ../TpNoteGit/css
+nano style.css
+
+cd ..
+git add images/image.jpg css/style.css
+git status
+git commit -m "structure css basique et insertion d'une image"
+git push origin css
+
+git pull origin html
+nano css/style.css
+git pull origin html
+git add -A
+git status 
+git commit -m "Commit du fichier style.css adapté aux fichiers html"
+git push origin css
+
+git fetch --all
+git checkout commandes
+nano Longo.txt
+git add Longo.txt
+git commit -m "Commit ajout du fichier Longo.txt"
+git push origin commandes
+
+git checkout main
+git pull origin commandes
